@@ -30,7 +30,7 @@ func connectUnixSocket() (*sql.DB, error) {
 	// [START_EXCLUDE]
 	// TODO: remove the following old region tag when it's no longer used.
 	// [END_EXCLUDE]
-	// [START cloud_sql_postgres_databasesql_create_socket]
+	// [START cloud_sql_mysql_databasesql_create_socket]
 	mustGetenv := func(k string) string {
 		v := os.Getenv(k)
 		if v == "" {
@@ -38,7 +38,6 @@ func connectUnixSocket() (*sql.DB, error) {
 		}
 		return v
 	}
-	// [START cloud_sql_mysql_databasesql_create_socket]
 	var (
 		dbUser         = mustGetenv("DB_USER")          // e.g. 'my-db-user'
 		dbPwd          = mustGetenv("DB_PASS")          // e.g. 'my-db-password'

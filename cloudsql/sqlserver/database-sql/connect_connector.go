@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// [START cloud_sql_postgres_databasesql_connect_connector]
+// [START cloud_sql_sqlserver_databasesql_connect_connector]
 package cloudsql
 
 import (
@@ -66,4 +66,4 @@ func connectConnector() (*sql.DB, error) {
 	return dbPool, nil
 }
 
-// [END cloud_sql_postgres_databasesql_connect_connector]
+// [END cloud_sql_sqlserver_databasesql_connect_connector]

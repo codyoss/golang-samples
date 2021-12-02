@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// [START cloud_sql_postgres_databasesql_connect_tcp]
+// [START cloud_sql_sqlserver_databasesql_connect_tcp]
 package cloudsql
 
 import (
@@ -30,7 +30,7 @@ func connectTCPSocket() (*sql.DB, error) {
 	// [START_EXCLUDE]
 	// TODO: remove the following old region tag when it's no longer used.
 	// [END_EXCLUDE]
-	// [START cloud_sql_postgres_databasesql_create_tcp]
+	// [START cloud_sql_sqlserver_databasesql_create_tcp]
 	mustGetenv := func(k string) string {
 		v := os.Getenv(k)
 		if v == "" {
@@ -64,4 +64,4 @@ func connectTCPSocket() (*sql.DB, error) {
 	// [END cloud_sql_sqlserver_databasesql_create_tcp]
 }
 
-// [END cloud_sql_postgres_databasesql_connect_tcp]
+// [END cloud_sql_sqlserver_databasesql_connect_tcp]
