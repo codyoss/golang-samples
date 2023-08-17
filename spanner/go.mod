@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	cloud.google.com/go v0.110.2
+	cloud.google.com/go/iam v1.1.0
 	cloud.google.com/go/kms v1.10.2
 	cloud.google.com/go/longrunning v0.5.0
 	cloud.google.com/go/spanner v1.47.0
@@ -22,7 +23,6 @@ require (
 require (
 	cloud.google.com/go/compute v1.19.3 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v1.1.0 // indirect
 	cloud.google.com/go/monitoring v1.13.0 // indirect
 	cloud.google.com/go/storage v1.30.1 // indirect
 	cloud.google.com/go/trace v1.9.0 // indirect

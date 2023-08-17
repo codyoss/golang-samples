@@ -21,7 +21,7 @@ import (
 	"io"
 
 	compute "cloud.google.com/go/compute/apiv1"
-	computepb "google.golang.org/genproto/googleapis/cloud/compute/v1"
+	"cloud.google.com/go/compute/apiv1/computepb"
 )
 
 // printPreemtible prints if a given instance is preemptible or not.

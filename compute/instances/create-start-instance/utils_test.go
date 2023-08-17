@@ -18,7 +18,7 @@ import (
 	"context"
 
 	compute "cloud.google.com/go/compute/apiv1"
-	computepb "google.golang.org/genproto/googleapis/cloud/compute/v1"
+	"cloud.google.com/go/compute/apiv1/computepb"
 )
 
 func deleteInstance(ctx context.Context, projectId, zone, instanceName string) error {
